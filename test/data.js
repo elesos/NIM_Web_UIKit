@@ -10,7 +10,9 @@ var friendsData ={
 		friends:friendsList,
 		account:"wujie"
 	},
-	infoprovider:infoProvider
+	infoprovider:infoProvider,
+	onclickitem:test1,
+	onclickavatar:test2
 }
 
 var sessionsList =[
@@ -120,6 +122,13 @@ var sessionsList =[
 		updateTime: 1447987020290
 	}	
 ];
+var sessionsData ={
+	data:{sessions:sessionsList},
+	infoprovider:infoProvider,
+	onclickitem:test1,
+	onclickavatar:test2
+}
+
 var teamsList = [
 	{name:"123",teamId:"12312",type:"normal"},
 	{name:"456",teamId:"12312",type:"normal"},
@@ -128,10 +137,7 @@ var teamsList = [
 	{name:"xyz",teamId:"12312",type:"advanced"},
 	{name:"ijk",teamId:"12312",type:"advanced"}
 ]
-var sessionsData ={
-	data:{sessions:sessionsList},
-	infoprovider:infoProvider
-}
+
 var teamsData ={
 	data:{teams:teamsList},
 	infoprovider:infoProvider,

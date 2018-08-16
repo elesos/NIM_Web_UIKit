@@ -8,6 +8,9 @@ NIM_Web_UIKit是一款可以帮助用户快速打造出聊天功能的UI组件�
 
 线上im测试：[https://www.starrtc.com/demo/im/](https://www.starrtc.com/demo/im/)
 
+
+更多使用案例请参考[NIM_Web_Demo](https://github.com/elesos/NIM_Web_Demo)
+
 修改使用本工程
 ----
 node环境是开发前提
@@ -134,5 +137,3 @@ inject(String|Node)
 将组件插入浏览器节点
 
 
-
-更多使用案例请参考[NIM_Web_Demo](https://github.com/netease-im/NIM_Web_Demo)

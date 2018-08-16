@@ -6,6 +6,7 @@ NIM_Web_UIKit是一款可以帮助用户快速打造出聊天功能的UI组件�
 
 本工程线上演示效果： [http://site.elesos.com/NIM_Web_UIKit/test/](http://site.elesos.com/NIM_Web_UIKit/test/)
 
+线上im测试：[https://www.starrtc.com/demo/im/](https://www.starrtc.com/demo/im/)
 
 修改使用本工程
 ----

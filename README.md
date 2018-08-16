@@ -20,13 +20,10 @@ node环境是开发前提
 -------
 列表组件
 ----
-new NIMUIKit.SessionList(options)
+会话列表：new NIMUIKit.SessionList(options)
 ---
-会话列表
-
-options
+options：初始化实例参数
 ---
-初始化实例参数
 
 | 参数 | 类型 | 说明 | 
 | --- | --- | --- |
@@ -66,13 +63,10 @@ inject(String|Node)
 ----------
 
 
-new NIMUIKit.TeamList(options)
+群组列表：new NIMUIKit.TeamList(options)
 ---
-群组列表
-
-options
+options：初始化实例参数
 ---
-初始化实例参数
 
 | 参数 | 类型 | 说明 | 
 | --- | --- | --- |
@@ -106,12 +100,10 @@ inject(String|Node)
 ----------
 
 
-new NIMUIKit.FriendList(options)
+好友列表：new NIMUIKit.FriendList(options)
 ---
-好友列表
-options
+options：初始化实例参数
 ---
-初始化实例参数
 
 | 参数 | 类型 | 说明 | 
 | --- | --- | --- |

@@ -121,12 +121,12 @@ var sessionsList =[
 	}	
 ];
 var teamsList = [
-	{name:"sdfsdsdfsdfsdff",teamId:"12312",type:"normal"},
-	{name:"sdfwef",teamId:"12312",type:"normal"},
-	{name:"sdfsdwer撒放假斯蒂芬斯蒂sdfsdfdsf芬很多f",teamId:"12312",type:"normal"},
-	{name:"sdfsddff",teamId:"12312",type:"advanced"},
-	{name:"sdfwedff",teamId:"12312",type:"advanced"},
-	{name:"sdfsdwdsfsdfer撒放假斯蒂芬斯蒂芬很多f",teamId:"12312",type:"advanced"}
+	{name:"123",teamId:"12312",type:"normal"},
+	{name:"456",teamId:"12312",type:"normal"},
+	{name:"789",teamId:"12312",type:"normal"},
+	{name:"abc",teamId:"12312",type:"advanced"},
+	{name:"xyz",teamId:"12312",type:"advanced"},
+	{name:"ijk",teamId:"12312",type:"advanced"}
 ]
 var sessionsData ={
 	data:{sessions:sessionsList},
@@ -134,8 +134,20 @@ var sessionsData ={
 }
 var teamsData ={
 	data:{teams:teamsList},
-	infoprovider:infoProvider
+	infoprovider:infoProvider,
+	onclickitem:test1,
+	onclickavatar:test2
 }
+
+
+function test1(){
+	alert('点击列表项回调函数');	
+}
+
+function test2(){
+	alert('点击列表项头像');	
+}
+
 function infoProvider(data,type){
         var info = {};
         switch(type){
